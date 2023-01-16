@@ -1,0 +1,221 @@
+/* ############# NavBar ############ */
+.navbar{
+    margin: .3% 1%;
+    border-radius: 10px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #FAAE17;
+}
+.nav-link:hover{
+    color: #FAAE17;
+}
+
+/* ############# End NavBar ############ */
+
+
+
+/* ############# Home ############ */
+
+
+#home{
+     width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 5rem;  
+}
+.hero-image-inside{
+    /* width: 60%; */
+    border-radius: 30px;
+}
+.hero-content h3{
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.692);
+    text-align: center;
+}
+.hero-content a{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.hero-content .secondbtn{
+    padding-left:  8.5%;
+    padding-right: 8.5%;
+
+}
+
+/* ############# End Home ############ */
+
+
+/* ############# Services ############ */
+
+.divider{
+    width: 98%;
+    margin: 2% auto;
+    height: 80px;
+    text-align: center;
+    background-color: #feb52239;
+    border: 3px solid #FAAE17;
+    border-radius: 15px;
+    padding-top: .01%;
+    font-size: 50px;
+}
+#services{
+    margin: 0 auto;
+    width: 84%;
+}
+ 
+/* ############# End Services ############ */
+
+/* ############# Over Ons ############ */
+.card{
+    border: 1px solid #FAAE17;
+}
+.card-img-top{
+    width: 90%;
+    margin-left: 4.5%;
+    margin-top: 3%;
+    border-radius: 5%;
+
+}
+.card-block{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.card-title{
+    color: #FAAE17;
+}
+.card-block span{
+    font-size: 120%;
+}
+#over-ons article{
+    width: 80%;
+    margin-top: 15%;
+    height: 30rem;
+    margin: 0 auto;
+    background-image: url("./images/Polygon\ 2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 10%;
+
+}
+#over-ons article p{
+    font-size: 260%;
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 5%;
+}
+
+
+/* ############# End Over Ons ############ */
+
+
+/* ############# Contact Ons ############ */
+#contact{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1C1C23;
+    color: white;
+    border-radius: 1%;
+    padding-bottom: 2%;
+    margin-top: 3%;
+}
+
+.uuren-content{
+    text-align: center;
+    color: #FAAE17;
+    margin-top: 13%;
+    margin-right: 15%;
+}
+.uuren-content h2{
+    font-size: 2rem;
+}
+.uuren-content ul{
+    list-style: none;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    font-size: 1.5rem;
+}
+.uuren-content ul li{
+    margin-top: 5%;
+}
+.uuren-content .orange-list{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    color: #FAAE17  ;
+}
+#contact .vraag{
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 10%;
+}
+.vraag h2{
+    font-size: 2.5rem;
+    color: #FAAE17;
+    margin-bottom: 5%;
+}
+.vraag p{
+    font-size: 1.4rem;
+}
+.vraag a{
+    padding: 3% 25%;
+    margin-top: 5%;
+}
+.locatie{
+    margin-top: 10%;
+}
+.location-right img {
+    border-radius: 2%;
+}
+.locatie i{
+    font-size: 250%;
+    margin-bottom: 10%;
+}
+.location-left{
+    margin-top: 5%;
+
+}
+.location-left span{
+    font-size: 110%;
+    text-align: end;
+}
+.location-left .locatie-content{
+    text-align: end;
+    margin-left: 15%;
+    font-size: 100%;
+}
+.locatie i small{
+    font-size: 27%;
+}
+
+.socialmd{
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+}
+.socialmd h2{
+    font-size: 2.5rem;
+    color: #FAAE17;
+}
+.socialmd a{
+    font-size: 3.5rem;
+    color: white;
+    margin: 5% 10%;
+    margin-bottom: 15%;
+}
+.socialmd a:hover{
+    color: #FAAE17;
+}
+
+.socialmd span a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #FAAE17;
+}
+footer{
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    margin-top: 1%;
+}
